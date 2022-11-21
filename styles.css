@@ -1,0 +1,103 @@
+:root{
+    --font-Montserrat: 'Montserrat', sans-serif;
+    --font-John-mayer: 'John Mayer';
+    --white: #f8f9fa;
+    --black: #212529;
+    --gray: #8c9298;
+    --primary: #457b9d;
+    --secondary: #1d3557;
+
+    }
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+    
+html{
+    font-size: 62.5%;
+    font-family: var(--font-Montserrat);
+    background-color: #e9ebed;
+    color: var(--black);
+    padding: 40px;
+}
+/* Icons */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+/* Profile section */
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: var(--white);
+
+}
+.profile-img{
+    display: flex;
+    justify-content: center;
+
+}
+.profile-img img{
+    width: 200px;
+    height: 210px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+.profile-name{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.9rem;
+    letter-spacing: 0em;
+}
+.profile-position{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: var(--gray);
+}
+.profile-mail span{
+    font-size: 1.2rem;
+    padding-right: 6px;
+}
+.profile-mail{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    letter-spacing: 0em;
+    margin-top: 26px;
+}
+.profile-number span{
+    font-size: 1.2rem;
+    padding-right: 6px;
+   
+}
+.profile-number{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    letter-spacing: 0em;
+    margin-bottom: 10px;
+}
+.profile-description{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    letter-spacing: 0em;
+
+}
